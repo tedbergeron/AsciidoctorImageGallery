@@ -1,0 +1,16 @@
+= Image Gallery
+:docinfo1:
+
+== The Gallery Below
+
+[#full-picture]
+* [[pic1]]link:pic1[image:610.jpg[]]
+* [[pic2]]link:pic2[image:611.jpg[]]
+* [[pic3]]link:pic3[image:612.jpg[]]
+* [[pic4]]link:pic4[image:613.jpg[]]
+
+[.gallery.navigation]
+* link:#pic1[image:610.jpg[,width=100,]]
+* link:#pic2[image:611.jpg[,width=100,]]
+* link:#pic3[image:612.jpg[,width=100,]]
+* link:#pic4[image:613.jpg[,width=100,]]

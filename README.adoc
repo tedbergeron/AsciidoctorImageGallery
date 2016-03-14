@@ -1,0 +1,84 @@
+= Create Simple Image Gallery with Asciidoctor
+:icons: font
+
+== Start with AsciiDoc
+
+Create an AsciiDoc file with classes and ID's that work in harmony with the CSS image gallery code.
+
+[source, AsciiDoc]
+----
+= ImageGallery.adoc
+:docinfo1:
+
+== The Gallery Below
+
+[#full-picture]
+* [[pic1]]link:pic1[image:610.jpg[]]
+* [[pic2]]link:pic2[image:611.jpg[]]
+* [[pic3]]link:pic3[image:612.jpg[]]
+* [[pic4]]link:pic4[image:613.jpg[]]
+
+[.gallery.navigation]
+* link:#pic1[image:610.jpg[,width=100,]]
+* link:#pic2[image:611.jpg[,width=100,]]
+* link:#pic3[image:612.jpg[,width=100,]]
+* link:#pic4[image:613.jpg[,width=100,]]
+----
+
+== Place all CSS in docinfo.html
+
+Create HTML file with the following code.
+This is a pure CSS image gallery.
+
+[source, CSS]
+----
+<style type="text/css">
+  /* http://basicuse.net/articles/pl/textile/html_css/how_to_create_a_simple_css_gallery_without_using_javascript#example */
+  #gallery {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 100px auto;
+  }
+  #navigation {
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  #navigation li {
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  #navigation li a img {
+    border: none;
+  }
+
+  #full-picture {
+    width: 475px;
+    height: 270px;
+    overflow: hidden;
+    float: left;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  #footer {
+    display: none;
+  }
+</style>
+
+----
+
+== Render ImageGallery.html with Asciidoctor
+
+At the command prompt
+
+ $ asciidoctor imagegallery.adoc
+
+
+== Open ImageGallery.html in a browser
+
+Click here for link:http://tedbergeron.github.io/AsciidoctorImageGallery/imagegallery.html[DEMO]
