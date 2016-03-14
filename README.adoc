@@ -89,7 +89,7 @@ IMPORTANT: Make all your images the same size so they will fit nicely in the gal
 
 e.g. 1200 px X 800 px
 
-You can adjust the size of the big image in the gallery by changing the width and height to match your final sizes in the docinfo.html file. 
+You can adjust the size of the big image in the gallery by changing the width and height to match your final sizes in the docinfo.html file. If your images are 1200 x 800, you might want to display them at half that size by changing the CSS to be 600 x 400.
 
 [source, CSS]
 ----
@@ -101,9 +101,9 @@ You can adjust the size of the big image in the gallery by changing the width an
   } 
 ----
 
-NOTE: If you have 5 or 6 images you could shrink down the thumbnail sizes to make them fit.
+NOTE: If you have 5 or 6 images you could use CSS to shrink down the thumbnail sizes to make them fit.
 
-That size is located in the AsciiDoc: 
+Instead of width=100 you could try width=75. That size is located in the AsciiDoc: 
 
 [source, AsciiDoc]
 ----
