@@ -82,3 +82,35 @@ At the command prompt
 == Open ImageGallery.html in a browser
 
 Click here for link:http://tedbergeron.github.io/AsciidoctorImageGallery/[DEMO]
+
+== Images need to be the same size
+
+IMPORTANT: Make all your images the same size so they will fit nicely in the gallery.
+
+e.g. 1200 px X 800 px
+
+You can adjust the size of the big image in the gallery by changing the width and height to match your final sizes in the docinfo.html file. 
+
+[source, CSS]
+----
+#full-picture { 
+    width: 600px; 
+    height: 400px;
+    overflow: hidden; 
+    float: left; 
+  } 
+----
+
+NOTE: If you have 5 or 6 images you could shrink down the thumbnail sizes to make them fit.
+
+That size is located in the AsciiDoc: 
+
+[source, AsciiDoc]
+----
+[.gallery.navigation] 
+* link:#pic1[image:610.jpg[,width=75,]] 
+* link:#pic2[image:611.jpg[,width=75,]]
+...
+* link:#pic6[image:615.jpg[,width=75,]]
+----
+
