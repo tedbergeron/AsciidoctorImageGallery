@@ -81,4 +81,4 @@ At the command prompt
 
 == Open ImageGallery.html in a browser
 
-Click here for link:http://tedbergeron.github.io/AsciidoctorImageGallery/imagegallery.html[DEMO]
+Click here for link:http://tedbergeron.github.io/AsciidoctorImageGallery/[DEMO]
