@@ -121,6 +121,4 @@ Instead of width=100 you could try width=75. That size is located in the AsciiDo
 * link:#pic6[image:615.jpg[,width=75,]]
 ----
 
-WARNING: this is a test.
 
-CAUTION: test too.
