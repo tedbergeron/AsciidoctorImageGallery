@@ -1,5 +1,8 @@
 = Create Simple Image Gallery with Asciidoctor
 :icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+endif::[]
 
 == Start with AsciiDoc
 
