@@ -2,8 +2,8 @@
 :icons: font
 ifdef::env-github[]
 :tip-caption: :bulb:
-:note-caption: :info-circle:
-:important-caption: :exclamation-circle:
+:note-caption: :info:
+:important-caption: :exclamation:
 :warning-caption: :exclamation-triangle:
 endif::[]
 
