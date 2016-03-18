@@ -2,6 +2,9 @@
 :icons: font
 ifdef::env-github[]
 :tip-caption: :bulb:
+:note-caption: :info-circle:
+:important-caption: :exclamation-circle:
+:warning-caption: :exclamation-triangle:
 endif::[]
 
 == Start with AsciiDoc
