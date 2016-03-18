@@ -107,7 +107,7 @@ You can adjust the size of the big image in the gallery by changing the width an
   } 
 ----
 
-NOTE: If you have 5 or 6 images you could use CSS to shrink down the thumbnail sizes to make them fit.
+TIP: If you have 5 or 6 images you could use CSS to shrink down the thumbnail sizes to make them fit.
 
 Instead of width=100 you could try width=75. That size is located in the AsciiDoc: 
 
